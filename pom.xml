@@ -31,7 +31,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				</configuration>
+          <deploymentType>cloudhub</deploymentType>
+          <muleVersion>4.3.0</muleVersion> 
+          <username>girish26052020</username> 
+          <password>Mulesoft@123</password> 
+          <applicationName>WorldTimeZone-25jun2020</applicationName>
+          <environment>Sandbox</environment> 
+          <businessGroup>Sales BU</businessGroup>
+          <workerType>Micro</workerType>
+          <workers>1</workers>
+</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>
