@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>worldtime</artifactId>
+	<artifactId>worldtime-25june2020</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>worldtime</name>
+	<name>worldtime-25june2020</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,11 +33,11 @@
 				<configuration>
 				<cloudHubDeployment>
           <muleVersion>4.3.0</muleVersion> 
-          <username>girish26052020</username> 
+          <username>ramesh555</username> 
           <password>Mulesoft@123</password> 
           <applicationName>WorldTimeZone-25jun2020</applicationName>
           <environment>Sandbox</environment> 
-          <businessGroup>Sales BU</businessGroup>
+        <!--  <businessGroup>Sales BU</businessGroup> -->  
           <workerType>Micro</workerType>
           <workers>1</workers>
           </cloudHubDeployment>
