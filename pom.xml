@@ -31,7 +31,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-          <deploymentType>cloudhub</deploymentType>
+				<cloudHubDeployment>
           <muleVersion>4.3.0</muleVersion> 
           <username>girish26052020</username> 
           <password>Mulesoft@123</password> 
@@ -40,7 +40,9 @@
           <businessGroup>Sales BU</businessGroup>
           <workerType>Micro</workerType>
           <workers>1</workers>
+          </cloudHubDeployment>
 </configuration>
+				
 				
 			</plugin>
 		</plugins>
